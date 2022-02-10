@@ -3,7 +3,7 @@ let job_number = 1;
 
 function addJob(){
 
-    window.location = "coop3.html";
+    window.location = "AddPage.html";
 
     let job = document.createElement('div');
     job.setAttribute('class', 'item');
