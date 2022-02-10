@@ -1,0 +1,155 @@
+body {
+  background-color: rgb(75, 27, 141);
+}
+
+#main {
+  height: 75vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* background-color: rgb(75, 27, 139); */
+  background-color: rgb(43, 19, 75);
+
+  border-radius: 25px;
+}
+
+#imageArea {
+  width: 45%;
+  height: 85%;
+
+  position: absolute;
+  top: 50%;
+  left: 32.5%;
+  transform: translate(-50%, -50%);
+
+  /* border: 1px solid white; */
+  color: white;
+  background-color: rgb(75, 27, 139);
+  border-radius: 15px;
+}
+
+#signInPage {
+  width: 45%;
+  height: 85%;
+
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+
+  /* border: 1px solid white; */
+  color: white;
+  /* background-color: rgb(43, 19, 75); */
+}
+
+#signInPage h1 {
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  top: 15%;
+}
+
+#signInPage h6 {
+  text-align: center;
+  font-weight: 300;
+  position: relative;
+  top: 15%;
+}
+
+#signInWithGoogle {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: 9%;
+
+  background-color: rgb(250, 115, 12);
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  box-shadow: 1px 0px 0px 1px;
+}
+
+#signUp {
+  color: orange;
+  font-weight: bold;
+}
+
+#username {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: 9%;
+
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+#password {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 50%;
+  height: 9%;
+
+  font-size: 15px;
+  background-color: white;
+  color: black;
+}
+
+/* 
+#signInPage h1 {
+  font-size: 6vh;
+  min-width: %;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  word-wrap: break-word;
+}
+
+#signInPage h7 {
+  position: absolute;
+  left: 50%;
+  top: 23%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#signInWithGoogle {
+  width: 70%;
+  height: 10%;
+  color: black;
+  font-size: 90%;
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hr {
+  width: 50%;
+  height: 0.5%;
+
+  background-color: white;
+} */

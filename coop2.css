@@ -1,0 +1,110 @@
+#main {
+  height: 95vh;
+  width: 95vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* background-color: rgb(75, 27, 139); */
+  background-color: rgb(43, 19, 75);
+
+  border-radius: 25px;
+}
+
+#main h1 {
+  /* transform: translate(-5%); */
+  color: white;
+  /* rgb(250, 115, 12); */
+  font-weight: bolder;
+  font-size: 300%;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+
+#line {
+  width: 90vw;
+  height: 3px;
+  background-color: rgb(250, 115, 12);
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  max-height: 500px;
+  width: 60vw;
+  /* border: 1px solid white; */
+  color: white;
+  overflow: auto;
+  position: absolute;
+  top: 57%;
+  left: 7%;
+  transform: translate(-7%, -57%);
+}
+
+.wrapper .item {
+  width: 59.1vw;
+  min-height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: blue;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  color: white;
+  min-width: 400px;
+  border-radius: 5px 5px 0px 0px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  width: 60vw;
+
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  transform: translate(-7%, -50%);
+}
+
+thead tr {
+  background-color: rgb(250, 115, 12);
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  width: 15vw;
+}
+
+tbody tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.addJob {
+  min-width: 75px;
+  min-height: 75px;
+  border: 3px solid rgb(0, 90, 0);
+  background-color: green;
+  border-radius: 50px;
+
+  position: absolute;
+  top: 98%;
+  left: 98%;
+  transform: translate(-98%, -98%);
+}
+
+.addJob:active {
+  /* transform: scale(0.9); */
+}
+
+tbody tr:nth-of-type(odd) {
+  /* background-color: #f3f3f3; */
+}
