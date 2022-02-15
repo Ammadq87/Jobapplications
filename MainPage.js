@@ -1,15 +1,18 @@
-let table = document.getElementById('wrapper');
-let job_number = 1;
+let jobTable = document.getElementById('wrapper');
+let jobsAdded = 0;
 
 function addJob(){
+    jobsAdded++;
 
-    window.location = "AddPage.html";
-
-    let job = document.createElement('div');
-    job.setAttribute('class', 'item');
-    job.innerText = "job_"+job_number;
-    job_number++;
+    // Get job info from user
     
-    table.append(job);
+    // Load data into db somehow
 
+    // display job object
+    const job = document.createElement('div');
+    job.setAttribute('class', 'item');
+    job.style.minHeight = '15vh';
+    job.style.background = 'blue';
+    job.innerHTML = `Job #${jobsAdded}`;
+    jobTable.prepend(job);
 }
