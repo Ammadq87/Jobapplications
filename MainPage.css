@@ -8,7 +8,8 @@
 
   /* background-color: rgb(75, 27, 139); */
   background-color: rgb(43, 19, 75);
-
+  /* overflow: auto; */
+  min-height: 687px;
   border-radius: 25px;
 }
 
@@ -33,13 +34,36 @@
   transform: translate(-50%, -50%);
 }
 
+/* Search Bar Styling */
+#searchBar {
+  width: 20vw;
+  position: absolute;
+  top: 18%;
+  left: 100%;
+  transform: translate(-100%, -18%);
+  /* border: 2px solid black; */
+  min-width: 147px;
+}
+
+#searchBar #searchInput {
+  width: 15vw;
+}
+
+#searchBar #searchButton {
+  position: absolute;
+  top: 100%;
+  left: 85%;
+  transform: translate(-85%, -100%);
+  border-radius: 0px 5px 5px 0px;
+}
+
 .wrapper {
   max-height: 500px;
   width: 60vw;
   /* border: 1px solid white; */
   color: white;
   overflow: auto;
-  position: absolute;
+  position: relative;
   top: 57%;
   left: 7%;
   transform: translate(-7%, -57%);
@@ -63,12 +87,12 @@ table {
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 
-  width: 60vw;
+  width: 90vw;
 
   position: absolute;
-  top: 20%;
-  left: 7%;
-  transform: translate(-7%, -50%);
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -22%);
 }
 
 thead tr {
